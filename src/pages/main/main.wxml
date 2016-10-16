@@ -1,0 +1,8 @@
+<view class="content">
+    <view class="city" bindtap="getPos"> {{cityName}} </view>
+    <view class="KPdesc"> 极光指数 {{kpPoint}} </view>
+    <view> x: {{lat}} y: {{lon}} </view>
+    <!--<map class="posMap"></map>-->
+    <!--<image class="aurora_img" mode="aspectFit" src="http://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.png"></image>-->
+    <canvas class="kp_chart" canvas-id="kp"></canvas>
+</view>

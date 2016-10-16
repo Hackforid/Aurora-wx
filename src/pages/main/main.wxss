@@ -1,0 +1,23 @@
+.posMap {
+    width: 30%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+
+.aurora_img {
+    width: 200px;
+    height: 200px;
+}
+
+.kp_chart {
+    width: 400px;
+    height: 500px;
+}
